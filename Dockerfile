@@ -1,8 +1,8 @@
 FROM mono:latest
 
-LABEL maintainer="Marcos Junior <junalmeida@gmail.com>"
+LABEL maintainer="Alexey MAGician <alexey@spaty.ru>"
 
-RUN apt-get update \
+RUN apt-get update -qq \
   && apt-get install -y \
       iproute2 supervisor ca-certificates-mono fsharp mono-vbnc nuget \
       referenceassemblies-pcl mono-fastcgi-server4 nginx nginx-extras \
