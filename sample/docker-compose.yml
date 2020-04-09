@@ -2,7 +2,7 @@ version: '3'
 services:
   webapp:
     container_name: "webapp"
-    image: junalmeida/mono-web:latest
+    image: alexeymagician/mono-web:latest
     build: ../
     restart: always
     ports:
